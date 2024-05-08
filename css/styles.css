@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+img {
+    display: block;
+}
 body {
     font-family: "Roboto", sans-serif;
     font-weight:normal;
@@ -207,4 +210,10 @@ header {
     align-items: center;
     flex-direction: column;
     padding: 5rem 1.5rem;
+}
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+.container {
+    display: flex;
 }
