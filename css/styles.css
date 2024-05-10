@@ -16,10 +16,7 @@ body {
 }
 .heading {
     background-color: #2E2F42;
-    display: flex;
-    flex-direction: column;
-    padding: 10rem 42rem;
-    align-items: center;
+    padding: 188px 0;
 }
 h1 {
     color: white;
@@ -42,12 +39,16 @@ a {
     background-color: #4D5AE5;
     color: white;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 4px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding: 0.5rem 2.5rem;
-    margin-top: 3rem;
+    display: block;
+    margin: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+
 }
 .heading .service:focus{
     background-color: #404BBF;
@@ -139,6 +140,8 @@ ul {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 496px;
+
 }
 .address .info {
     letter-spacing: 0.02em;
@@ -183,10 +186,6 @@ header {
 }
 .nav ul li {
     padding: 0 1.5rem;
-}
-.address ul {
-    display: flex;
-    gap: 2rem;
 }
 .stats h2 {
     display: none;
