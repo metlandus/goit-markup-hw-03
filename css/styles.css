@@ -220,3 +220,12 @@ header {
     margin: 0 auto;
     padding: 0 15px;
 }
+.nav_list {
+    gap: 40px;
+}
+.nav_list .stp {
+    padding: 24px 0;
+}
+.address_list {
+    gap: 40px;
+}
