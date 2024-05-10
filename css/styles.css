@@ -187,8 +187,8 @@ header {
 .nav ul li {
     padding: 0 1.5rem;
 }
-.stats h2 {
-    display: none;
+.stats .container h2 {
+    visibility: hidden;
 }
 .stats ul {
     display: flex;
@@ -227,4 +227,19 @@ header {
 }
 .address_list {
     gap: 40px;
+    display: flex;
+}
+.stats {
+    padding: 120px 0;
+}
+.stats_list {
+    display: flex;
+    gap: 24px;
+
+}
+.stats_list_item {
+    width: calc((100% - 72px) / 4);
+}
+.stat_h {
+    margin-bottom: 8px;
 }
