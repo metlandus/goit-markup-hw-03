@@ -161,7 +161,8 @@ ul {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-    margin-bottom: 72px;}
+    margin-bottom: 72px;
+}
 .team ul .members {
     background-color: #FFFFFF;
 }
@@ -242,4 +243,24 @@ ul {
 }
 .members_p {
     text-align: center;
+}
+.portfolio {
+    padding-top: 120px;
+}
+.portfolio_list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+.portfolio_list_item {
+    width: calc((100% - 48px) / 3);
+}
+.portfolio_div {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+.portfolio_h {
+    margin-bottom: 8px;
 }
