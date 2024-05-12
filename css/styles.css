@@ -10,7 +10,7 @@ img {
 }
 body {
     font-family: "Roboto", sans-serif;
-    font-weight:normal;
+    font-weight: normal;
     font-style: normal;
     color: #434455;
     font-size: 16px;
@@ -18,7 +18,7 @@ body {
     line-height: 1.5;
 }
 .heading {
-    background-color: #2E2F42;
+    background-color: #2e2f42;
     padding: 188px 0;
 }
 h1 {
@@ -33,13 +33,13 @@ h3 {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2e2f42;
 }
 a {
     text-decoration: none;
 }
 .heading .service {
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;
     color: white;
     cursor: pointer;
     border-radius: 4px;
@@ -51,34 +51,33 @@ a {
     min-width: 169px;
     height: 56px;
     border: none;
-
 }
-.heading .service:focus{
-    background-color: #404BBF;
+.heading .service:focus {
+    background-color: #404bbf;
 }
 .nav .logo_nav:active {
-    color: #404BBF;
+    color: #404bbf;
     text-decoration: underline;
 }
 .heading button:hover {
-    background-color: #404BBF;
+    background-color: #404bbf;
     color: white;
 }
 .nav ul li .stp:hover {
-    color: #404BBF;
+    color: #404bbf;
 }
 .address a:hover {
-    color: #404BBF;
+    color: #404bbf;
 }
 .team {
-    background-color: #F4F4FD;
+    background-color: #f4f4fd;
     padding: 120px 0;
 }
 ul {
     list-style-type: none;
 }
-.footer .logo_footer:active { 
-    color: #404BBF;
+.footer .logo_footer:active {
+    color: #404bbf;
     text-decoration: underline;
 }
 .address {
@@ -89,11 +88,11 @@ ul {
     font-weight: 500;
 }
 .nav .logo_nav .logo_studio_nav {
-    color: #2E2F42;
+    color: #2e2f42;
 }
 .nav .logo_nav {
     font-family: "Raleway", sans-serif;
-    color: #4D5AE5;
+    color: #4d5ae5;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -105,7 +104,7 @@ ul {
     display: inline-block;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
-    color: #4D5AE5;
+    color: #4d5ae5;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -113,19 +112,19 @@ ul {
     text-transform: uppercase;
 }
 .footer .logo_footer .logo_studio_footer {
-    color: #F4F4FD;
+    color: #f4f4fd;
 }
 .footer {
-    background-color: #2E2F42;
-    color: #F4F4FD;
+    background-color: #2e2f42;
+    color: #f4f4fd;
     padding: 100px 0;
 }
 .footer .footer_p {
     letter-spacing: 0.02em;
     max-width: 264px;
 }
-.nav ul .stp{
-    color: #2E2F42;
+.nav ul .stp {
+    color: #2e2f42;
 }
 .address a {
     color: #434455;
@@ -134,13 +133,13 @@ ul {
     letter-spacing: 0.02em;
 }
 .nav ul .stp:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 .address .mail {
     letter-spacing: 0.02;
 }
 .address .mail:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 .heading .main_heading {
     font-size: 56px;
@@ -148,17 +147,15 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     max-width: 496px;
-
 }
 .address .info {
     letter-spacing: 0.02em;
 }
 .address .info:focus {
-    color:#404BBF;
+    color: #404bbf;
 }
 .stats ul li .stat_p {
     letter-spacing: 0.02em;
-
 }
 .section_heading {
     font-size: 36px;
@@ -166,11 +163,11 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: #2e2f42;
     margin-bottom: 72px;
 }
 .team ul .members {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 .team ul .members .members_p {
     font-size: 16px;
@@ -200,10 +197,9 @@ ul {
     overflow: hidden;
 }
 .header {
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid #e7e9fc;
 }
 .container {
-    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -224,7 +220,6 @@ ul {
 .stats_list {
     display: flex;
     gap: 24px;
-
 }
 .stats_list_item {
     width: calc((100% - 72px) / 4);
@@ -265,14 +260,12 @@ ul {
 }
 .portfolio_div {
     padding: 32px 16px;
-    border: 1px solid #E7E9FC;
+    border: 1px solid #e7e9fc;
     border-top: none;
 }
 .portfolio_h {
     margin-bottom: 8px;
 }
-.footer_container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+.display_container {
+    display: flex;
 }
