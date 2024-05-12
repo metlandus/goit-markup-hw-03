@@ -101,7 +101,7 @@ ul {
     text-transform: uppercase;
     margin-right: 76px;
 }
-.footer .container > .logo_footer {
+.footer .logo_footer {
     display: inline-block;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
@@ -270,4 +270,9 @@ ul {
 }
 .portfolio_h {
     margin-bottom: 8px;
+}
+.footer_container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
