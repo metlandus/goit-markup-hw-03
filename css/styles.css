@@ -269,3 +269,6 @@ ul {
 .display_container {
     display: flex;
 }
+.flex_column {
+    flex-direction: column;
+}
